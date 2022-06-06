@@ -90,10 +90,29 @@ Consideraciones: Se enfocan principalmente en los países en desarrollo porque s
 \end{frame}
 
 \begin{frame}
+\frametitle{Método}
+\begin{itemize}
+\item Se utiliza un modelo de Métodos Generalizados de los Momentos (System-GMM), desarrollado por Blundell y Bond (1998), con errores estándar robustos corregidos para muestras finitas utilizando el procedimiento de corrección de Windmeijer (2005). 
+\item El modelo System-GMM implica la estimación de un solo sistema que combina una regresión en primeras diferencias y una regresión en niveles. 
+\item Los instrumentos para la regresión en primeras diferencias son los niveles rezagados (fechados t − 2) de las variables explicativas endógenas, y los instrumentos para la regresión en niveles son las diferencias rezagadas de las variables explicativas endógenas. 
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Método}
+\begin{itemize}
+\item Blundell & Bond (1998) muestran que estimar las dos ecuaciones (niveles y diferencias) en un solo sistema reduce el posible sesgo y la imprecisión asociados con solo el estimador GMM en primeras diferencias. 
+\item Además corrige posibles problemas de endogeneidad, la técnica GMM permite tener en cuenta los efectos fijos específicos del país que no varían en el tiempo y no se observan (Blundell & Bond 1998). 
+\item Siguiendo la literatura, se controlan las variables estándar en la especificación que se sabe que influyen en la apertura comercial: logaritmo del PIB per cápita, logaritmo de la población, logaritmo del PIB total en paridad de poder adquisitivo y relación capital-trabajo.
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
 \frametitle{Conclusiones}
-En términos generales, la literatura y los resultados del análisis empírico realizado aquí sugieren que la democracia puede ayudar a fomentar la globalización económica, pero que la globalización en sí misma no promueve la democracia. 
-Se ha demostrado que a través de extensas pruebas empíricas que las transiciones democráticas y los niveles más altos de democracia influyen positivamente en la apertura comercial y financiera.
-Las pruebas empíricas que carecen de fundamentos teóricos sólidos nos dicen algo sobre la correlación pero no la causalidad entre las transiciones democráticas y la liberalización económica. 
+La rápida proliferación de regímenes democráticos en los países en desarrollo en los últimos 30 años ha producido un animado debate sobre su relación con la globalización económica.
+
+La investigación reciente en ciencias políticas se ha visto particularmente impulsada por dos preguntas clave sobre la política de la globalización: ¿la democratización provoca la liberalización del comercio y de la cuenta de capital? ¿La mayor apertura comercial y financiera aumenta la probabilidad de democratización en los países en desarrollo?
 
 \end{frame}
 
